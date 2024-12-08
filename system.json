@@ -33,7 +33,7 @@
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
   "manifest": "https://raw.githubusercontent.com/ZeeKitsune/goldensky-fansystem/main/system.json",
-  "download": "N/A",
+  "download": "https://github.com/ZeeKitsune/goldensky-fansystem/archive/refs/heads/main.zip",
   "grid": {
     "distance": 5,
     "units": "ft"
