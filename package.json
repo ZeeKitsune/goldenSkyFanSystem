@@ -1,7 +1,7 @@
 {
-  "name": "goldensky-fansystem",
+  "name": "goldenSkyFanSystem",
   "version": "1.0.0",
-  "description": "CSS compiler for the goldensky-fansystem system",
+  "description": "CSS compiler for the goldenSkyFanSystem system",
   "scripts": {
     "css": "gulp css",
     "watch": "gulp",

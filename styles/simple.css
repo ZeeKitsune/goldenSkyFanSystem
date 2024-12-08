@@ -3,243 +3,243 @@
     /* Items List */
     /* Attributes */
 }
-    .goldensky .window-content {
-        height: 100%;
-        padding: 5px;
-        overflow-y: hidden;
-    }
-    .goldensky form {
-        height: 100%;
-    }
-    .goldensky .sheet-header {
+.goldenSkyFanSystem .window-content {
+    height: 100%;
+    padding: 5px;
+    overflow-y: hidden;
+}
+.goldenSkyFanSystem form {
+    height: 100%;
+}
+.goldenSkyFanSystem .sheet-header {
+    flex: 0 0 100px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+    .goldenSkyFanSystem .sheet-header .profile-img {
         flex: 0 0 100px;
-        overflow: hidden;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        margin-bottom: 10px;
+        height: 100px;
+        margin-right: 10px;
     }
-        .goldensky .sheet-header .profile-img {
-            flex: 0 0 100px;
-            height: 100px;
-            margin-right: 10px;
-        }
-        .goldensky .sheet-header .header-fields {
-            flex: 1;
-            height: 100px;
-        }
-        .goldensky .sheet-header h1.charname {
-            height: 50px;
-            padding: 0px;
-            margin: 5px 0;
-            border-bottom: 0;
-        }
-            .goldensky .sheet-header h1.charname input {
-                width: 100%;
-                height: 100%;
-                margin: 0;
-            }
-    .goldensky .resource {
-        width: 50%;
-        height: 40px;
-        margin-top: 10px;
-        float: left;
-        text-align: center;
+    .goldenSkyFanSystem .sheet-header .header-fields {
+        flex: 1;
+        height: 100px;
     }
-        .goldensky .resource input {
-            width: 100px;
-            height: 28px;
-        }
-    .goldensky .tabs {
-        flex: 0 0 40px;
-        border-top: 1px solid #AAA;
-        border-bottom: 1px solid #AAA;
+    .goldenSkyFanSystem .sheet-header h1.charname {
+        height: 50px;
+        padding: 0px;
+        margin: 5px 0;
+        border-bottom: 0;
     }
-        .goldensky .tabs .item {
-            line-height: 40px;
-            font-weight: bold;
-        }
-            .goldensky .tabs .item.active {
-                text-decoration: underline;
-                text-shadow: none;
-            }
-    .goldensky .sheet-body {
-        overflow: hidden;
-    }
-        .goldensky .sheet-body .tab {
+        .goldenSkyFanSystem .sheet-header h1.charname input {
+            width: 100%;
             height: 100%;
-            overflow-y: auto;
+            margin: 0;
         }
-    .goldensky .editor,
-    .goldensky .editor-content {
-        height: 100%;
+.goldenSkyFanSystem .resource {
+    width: 50%;
+    height: 40px;
+    margin-top: 10px;
+    float: left;
+    text-align: center;
+}
+    .goldenSkyFanSystem .resource input {
+        width: 100px;
+        height: 28px;
     }
-    .goldensky .item-list {
-        list-style: none;
-        margin: 7px 0;
-        padding: 0;
+.goldenSkyFanSystem .tabs {
+    flex: 0 0 40px;
+    border-top: 1px solid #AAA;
+    border-bottom: 1px solid #AAA;
+}
+    .goldenSkyFanSystem .tabs .item {
+        line-height: 40px;
+        font-weight: bold;
+    }
+        .goldenSkyFanSystem .tabs .item.active {
+            text-decoration: underline;
+            text-shadow: none;
+        }
+.goldenSkyFanSystem .sheet-body {
+    overflow: hidden;
+}
+    .goldenSkyFanSystem .sheet-body .tab {
+        height: 100%;
         overflow-y: auto;
     }
-        .goldensky .item-list .item {
-            min-height: 30px;
-            line-height: 24px;
-            padding: 3px 0;
-            border-bottom: 1px solid #BBB;
-            align-items: stretch;
-        }
-            .goldensky .item-list .item img {
-                flex: 0 0 24px;
-                margin-right: 5px;
-            }
-        .goldensky .item-list .item-name {
-            margin: 0;
-        }
-        .goldensky .item-list .item-controls {
-            flex: 0 0 36px;
-        }
-        .goldensky .item-list .item-buttons {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            align-items: center;
-            flex: 2;
-            justify-content: flex-start;
-        }
-        .goldensky .item-list .item-button {
-            line-height: 1;
-            font-size: 11px;
-            flex: none;
-            width: auto;
-        }
-    .goldensky .attributes {
-        position: relative;
+.goldenSkyFanSystem .editor,
+.goldenSkyFanSystem .editor-content {
+    height: 100%;
+}
+.goldenSkyFanSystem .item-list {
+    list-style: none;
+    margin: 7px 0;
+    padding: 0;
+    overflow-y: auto;
+}
+    .goldenSkyFanSystem .item-list .item {
+        min-height: 30px;
+        line-height: 24px;
+        padding: 3px 0;
+        border-bottom: 1px solid #BBB;
+        align-items: stretch;
     }
-        .goldensky .attributes .attribute-control,
-        .goldensky .attributes .group-control {
-            flex: 0 0 20px;
-            text-align: center;
-            line-height: 28px;
-            border: none;
+        .goldenSkyFanSystem .item-list .item img {
+            flex: 0 0 24px;
+            margin-right: 5px;
         }
-        .goldensky .attributes .attribute-roll {
-            flex: 0 0 20px;
-            text-align: center;
-            border-bottom: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .goldensky .attributes .group-prefix {
-            height: 31px;
-            margin-right: 10px;
-        }
-        .goldensky .attributes .button {
-            width: 100%;
-            flex: 1;
-            margin: 0;
-            background: rgba(0, 0, 0, 0.1);
-            border: 2px groove #f0f0e0;
-            border-radius: 3px;
-            font-size: 14px;
-            line-height: 28px;
-            display: block;
-        }
-        .goldensky .attributes .attribute-key {
-            background: transparent;
-            border: none;
-        }
-    .goldensky .attributes-header {
-        position: sticky;
-        top: 0;
-        left: 0;
-        align-items: center;
-        padding: 0 5px;
-        margin: 5px 0;
-        background: #cfcdc2;
-        border: 1px solid #AAA;
-        border-radius: 2px;
-        text-align: left;
-        font-weight: bold;
-    }
-    .goldensky .attributes-list {
-        list-style: none;
+    .goldenSkyFanSystem .item-list .item-name {
         margin: 0;
-        padding: 0;
     }
-        .goldensky .attributes-list li > * {
-            margin: 0 3px;
-            height: 28px;
-            line-height: 24px;
-            background: transparent;
-            border: none;
-            border-radius: 0;
-            border-bottom: 1px solid #AAA;
-        }
-        .goldensky .attributes-list .attribute-col label {
-            font-size: 10px;
-            text-align: center;
-            line-height: 1;
-        }
-        .goldensky .attributes-list .attribute-col input {
-            font-size: 11px;
-            text-align: center;
-            line-height: 1;
-            height: 50%;
-        }
-    .goldensky .attribute input[type="text"]::placeholder,
-    .goldensky .group-header input[type="text"]::placeholder {
-        opacity: 0;
-        transition: opacity 0.25s ease-in-out;
+    .goldenSkyFanSystem .item-list .item-controls {
+        flex: 0 0 36px;
     }
-    .goldensky .attribute input[type="text"]:focus::placeholder,
-    .goldensky .group-header input[type="text"]:focus::placeholder {
-        opacity: 1;
-    }
-    .goldensky .group-controls {
-        margin: 5px;
-    }
-    .goldensky .groups-list {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-    .goldensky .group {
-        margin: 5px 0 0;
-        padding: 0;
-    }
-    .goldensky .group-header {
+    .goldenSkyFanSystem .item-list .item-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
         align-items: center;
-        background: rgba(0, 0, 0, 0.05);
-        border: 1px solid #AAA;
-        border-radius: 2px;
-        padding: 2px 5px;
-    }
-    .goldensky .group-key,
-    .goldensky .group-label {
-        font-weight: bold;
-        border: none;
-        border-bottom: 1px solid #AAA;
-        background: transparent;
-        border-radius: 0;
-        margin-right: 6px;
-    }
-    .goldensky .group-key {
-        opacity: 0.75;
-    }
-    .goldensky .group-label {
         flex: 2;
+        justify-content: flex-start;
     }
-    .goldensky .group-dtype {
-        height: 24px;
-        flex: 0 0 116px;
-        margin: 0 5px;
+    .goldenSkyFanSystem .item-list .item-button {
+        line-height: 1;
+        font-size: 11px;
+        flex: none;
+        width: auto;
     }
-    .goldensky.sheet.actor {
-        min-width: 560px;
-        min-height: 420px;
+.goldenSkyFanSystem .attributes {
+    position: relative;
+}
+    .goldenSkyFanSystem .attributes .attribute-control,
+    .goldenSkyFanSystem .attributes .group-control {
+        flex: 0 0 20px;
+        text-align: center;
+        line-height: 28px;
+        border: none;
     }
-    .goldensky.sheet.item {
-        min-width: 460px;
-        min-height: 400px;
+    .goldenSkyFanSystem .attributes .attribute-roll {
+        flex: 0 0 20px;
+        text-align: center;
+        border-bottom: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+    .goldenSkyFanSystem .attributes .group-prefix {
+        height: 31px;
+        margin-right: 10px;
+    }
+    .goldenSkyFanSystem .attributes .button {
+        width: 100%;
+        flex: 1;
+        margin: 0;
+        background: rgba(0, 0, 0, 0.1);
+        border: 2px groove #f0f0e0;
+        border-radius: 3px;
+        font-size: 14px;
+        line-height: 28px;
+        display: block;
+    }
+    .goldenSkyFanSystem .attributes .attribute-key {
+        background: transparent;
+        border: none;
+    }
+.goldenSkyFanSystem .attributes-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    align-items: center;
+    padding: 0 5px;
+    margin: 5px 0;
+    background: #cfcdc2;
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    text-align: left;
+    font-weight: bold;
+}
+.goldenSkyFanSystem .attributes-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+    .goldenSkyFanSystem .attributes-list li > * {
+        margin: 0 3px;
+        height: 28px;
+        line-height: 24px;
+        background: transparent;
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid #AAA;
+    }
+    .goldenSkyFanSystem .attributes-list .attribute-col label {
+        font-size: 10px;
+        text-align: center;
+        line-height: 1;
+    }
+    .goldenSkyFanSystem .attributes-list .attribute-col input {
+        font-size: 11px;
+        text-align: center;
+        line-height: 1;
+        height: 50%;
+    }
+.goldenSkyFanSystem .attribute input[type="text"]::placeholder,
+.goldenSkyFanSystem .group-header input[type="text"]::placeholder {
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+}
+.goldenSkyFanSystem .attribute input[type="text"]:focus::placeholder,
+.goldenSkyFanSystem .group-header input[type="text"]:focus::placeholder {
+    opacity: 1;
+}
+.goldenSkyFanSystem .group-controls {
+    margin: 5px;
+}
+.goldenSkyFanSystem .groups-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.goldenSkyFanSystem .group {
+    margin: 5px 0 0;
+    padding: 0;
+}
+.goldenSkyFanSystem .group-header {
+    align-items: center;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    padding: 2px 5px;
+}
+.goldenSkyFanSystem .group-key,
+.goldenSkyFanSystem .group-label {
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    background: transparent;
+    border-radius: 0;
+    margin-right: 6px;
+}
+.goldenSkyFanSystem .group-key {
+    opacity: 0.75;
+}
+.goldenSkyFanSystem .group-label {
+    flex: 2;
+}
+.goldenSkyFanSystem .group-dtype {
+    height: 24px;
+    flex: 0 0 116px;
+    margin: 0 5px;
+}
+.goldenSkyFanSystem.sheet.actor {
+    min-width: 560px;
+    min-height: 420px;
+}
+.goldenSkyFanSystem.sheet.item {
+    min-width: 460px;
+    min-height: 400px;
+}

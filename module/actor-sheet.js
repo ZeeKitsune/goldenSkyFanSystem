@@ -10,8 +10,8 @@ export class SimpleActorSheet extends ActorSheet {
   /** @inheritdoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-        classes: ["goldensky", "sheet", "actor"],
-      template: "systems/goldensky-fansystem/templates/actor-sheet.html",
+        classes: ["goldenSkyFanSystem", "sheet", "actor"],
+        template: "systems/goldenSkyFanSystem/templates/actor-sheet.html",
       width: 600,
       height: 600,
       tabs: [{navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "description"}],
@@ -26,7 +26,7 @@ export class SimpleActorSheet extends ActorSheet {
   async getData(options) {
     const context = await super.getData(options);
     EntitySheetHelper.getAttributeData(context.data);
-      context.shorthand = !!game.settings.get("goldensky", "macroShorthand");
+      context.shorthand = !!game.settings.get("goldenSkyFanSystem", "macroShorthand");
     context.systemData = context.data.system;
     context.dtypes = ATTRIBUTE_TYPES;
     context.biographyHTML = await TextEditor.enrichHTML(context.systemData.biography, {
