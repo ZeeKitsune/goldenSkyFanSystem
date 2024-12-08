@@ -1,3 +1,3 @@
-# Simple Worldbuilding System
+# Golden Sky Fanmade System
 
-A simple game system for Foundry VTT which allows for flexible definition of Actors and Items to assist with worldbuilding or for running games which do not have a more complete system implementation available.
+A fan made system for the golden sky TTRPG found at https://www.drivethrurpg.com/en/product/118784/golden-sky-stories
