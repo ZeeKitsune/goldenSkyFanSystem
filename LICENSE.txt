@@ -19,3 +19,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+**Licensing Clarifications:**
+
+* **Foundry Virtual Tabletop Software:** This license applies to the Foundry Virtual Tabletop software itself, which is copyright to Foundry Network.
+* **Golden Sky Stories TTRPG System:**  The Golden Sky Stories tabletop role-playing game system is licensed to Star Line Publishing. This system is separate from Foundry Virtual Tabletop.
+* **Fan-Made Content:** This specific fan-made system adaptation for Foundry Virtual Tabletop, excluding any elements of the Golden Sky Stories TTRPG system, is copyright to  [xeekitsune.bsky.social](https://bsky.app/profile/xeekitsune.bsky.social).
